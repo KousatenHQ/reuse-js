@@ -132,6 +132,7 @@ const Tracker = {
 
 	_projectId: false,
 
+    // Initializes the Tracker to send events to specified Mixpanel projectId.
 	init: function(projectId) {
 		if(!projectId) {
 			throw "parameter required";
@@ -145,11 +146,8 @@ const Tracker = {
 		mixpanel.init(this._projectId);
 	},
 
-	// TODO check that format is correct
-	props: function(props) {
-		this._props = props;
-	},
-
+    // Tracks an event identified by 'name' and adds the specified properties to
+    // any properties previously configured in the Tracker with Tracker.props.
 	track: function(event, props) {
 		if(!this._projectId) {
 			throw "Tracker has not been initialized";
@@ -159,5 +157,10 @@ const Tracker = {
 			merged = {...merged, ...props};
 		}
 		return mixpanel.track(event, merged);
+	},
+
+    // Adds default properties that will be sent with each tracked event from now on.
+    props: function(props) {
+		this._props = props;
 	}
 };
