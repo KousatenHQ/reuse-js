@@ -1,5 +1,5 @@
 /*!
- * reuse-js v1
+ * reuse-js
  * Copyright (c) 2025 Kousaten LLC. All rights reserved.
  * This file is proprietary and confidential. Unauthorized copying, modification,
  * distribution, or use of this file, via any medium, is strictly prohibited.
