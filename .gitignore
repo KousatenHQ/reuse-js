@@ -1,0 +1,17 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+# Node:
+build/
+node_modules/
+/yarn-error.log
+
+# Mac:
+.DS_Store
+
+# Other:
+.env
+.bundle/
+target/
+tmp/
+log/
+bin/
