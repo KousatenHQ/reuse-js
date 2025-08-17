@@ -1,10 +1,6 @@
-/*!
- * reuse-js
- * Copyright (c) 2025 Kousaten LLC. All rights reserved.
- * This file is proprietary and confidential. Unauthorized copying, modification,
- * distribution, or use of this file, via any medium, is strictly prohibited.
- */
-
+// Copyright (c) 2019-2025 Kousaten LLC. All rights reserved.
+// This source code is the confidential and proprietary information of Kousaten LLC.
+// Unauthorized copying, modification, or distribution of this file is strictly prohibited.
 const Reuse = {
 	Constants: {
 		EMAIL_REGEXP: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,10}$/,
