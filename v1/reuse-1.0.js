@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2025 Kousaten LLC. All rights reserved.
+// Copyright (c) 2017-2025 Kousaten LLC. All rights reserved.
 // This source code is the confidential and proprietary information of Kousaten LLC.
 // Unauthorized copying, modification, or distribution of this file is strictly prohibited.
 const Reuse = {
